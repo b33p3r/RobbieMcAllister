@@ -1,0 +1,247 @@
+/*////////////// UNIVERSAL & CONTAINERS START //////////////*/
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background: url(images/Clouds.jpg) no-repeat center fixed;
+    background-size: cover;
+    width: 100vw;
+    line-height: 1.2;
+    overflow-x: hidden;
+    text-align: center;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    margin: 0;
+}
+
+.container {
+    padding: 0;
+    max-width: 100%;
+}
+
+
+/************ UNIVERSAL & CONTAINERS END ************/
+
+/*////////////// HEADER START //////////////*/
+
+/* jumbotron */
+.jumbotron {
+    background: transparent;
+    text-align: center;
+    color: #011627;
+    margin: 0 auto 120px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.jumbotron h1 {
+    font-size: 4rem;
+    margin: 2.5rem auto 2rem;
+}
+
+.jumbotron h3 {
+    text-transform: uppercase;
+    font-size: 1rem;
+    color: #00487C;
+    margin: 0;
+
+}
+
+@media(min-width: 768px) {
+
+    .jumbotron h3,
+    .top-nav a {
+        font-size: 1.4rem;
+    }
+}
+
+.jumbo-descriptor {
+    padding: 0 20%;
+    margin-bottom: 5%;
+}
+
+
+/* HeaderImg&Bio*/
+
+.img-box {
+    position: relative;
+}
+
+.img-box img {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.img-caption {
+    position: absolute;
+    left: -25%;
+    bottom: 85%;
+    padding: 0;
+    font-size: 2.2rem;
+    width: 150%;
+    text-transform: uppercase;
+}
+
+.caption-btn {
+    position: absolute;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    background-color: rgba(247, 247, 255, .7);
+    padding: 15px 20px;
+    border-radius: 10px;
+
+}
+
+.caption-btn.btn-left {
+    bottom: 40%;
+    right: 60%;
+
+}
+
+.caption-btn.btn-right {
+    bottom: 40%;
+    left: 60%;
+    width: 200px;
+}
+
+.btn-bot {
+    position: absolute;
+    text-align: center;
+    bottom: -1.5%;
+    font-size: 2.2rem;
+    width: 303px;
+    height: 70px;
+    padding: .8rem;
+    color: #D5E1DE;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color:  rgba(1, 22, 39, .75);
+    text-transform: uppercase;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
+
+
+
+
+
+
+
+
+
+/*NAVBAR*/
+.top-nav {
+    z-index: 50;
+    position: fixed;
+    top: -150px;
+    width: 100%;
+    padding: 2rem 15%;
+    background-color: rgba(247, 247, 255, .9);
+    transition: all 500ms cubic-bezier(0, 0, 0, 1);
+    transition-delay: 0;
+}
+
+@media(max-width: 768px) {
+    .top-nav {
+        padding: 2rem 5px;
+        font-size: 1rem;
+    }
+}
+
+
+.top-nav a {
+    color: #3C5233;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.top-nav.visible-nav {
+    top: 0;
+}
+
+
+/*SIDE NAV BAR*/
+.side-nav {
+    position: fixed;
+    padding: 1rem auto;
+    top: 35%;
+    height: 25%;
+    width: 40px;
+    min-height: 220px;
+    background-color: #1a2424;
+    opacity: .7;
+    border-top-right-radius: 9px;
+    border-bottom-right-radius: 9px;
+}
+
+.side-nav i {
+    margin: 1rem auto;
+    font-size: 1.3rem;
+    color: #F7F7FF;
+}
+
+i.fa-instagram {
+    color: #ff775e;
+}
+
+i.fa-twitter {
+    color: #00bfff;
+}
+
+i.fa-facebook {
+    color: #0080ff;
+}
+
+i.fa-envelope {
+    color: #00f0ac;
+}
+
+/************ HEADER END************/
+
+/*////////////// OFFERINGS SECTION //////////////*/
+
+.offerings-section-bg {
+    height: 70vh;
+    background: url(images/MeditationStatues.jpg) no-repeat center fixed;
+    background-size: cover;
+    width: 100vw;
+}
+
+.section-header {
+    font-size: 3rem;
+    text-transform: uppercase;
+    margin: 120px auto 100px;
+    transition: 600ms all;
+ 
+}
+
+
+.blue-text {
+    color: #011627;
+}
+
+.white-text {
+    color: #F7F7FF;
+}
+
+
+
+/**************** OFFERINGS SECTION END***************/
+
+
+/**************** ABOUT SECTION ***************/
+.about-section-bg {
+    height: 70vh;
+
+}
+
+
+/**************** ABOUT SECTION END***************/
