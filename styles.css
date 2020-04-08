@@ -118,15 +118,16 @@ p {
     width: 303px;
     height: 70px;
     padding: .8rem;
-    color: #D5E1DE;
+    color: #F7F7FF;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-    background-color:  rgba(1, 22, 39, .75);
+    background-color: rgba(1, 22, 39, .75);
     text-transform: uppercase;
     margin-left: auto;
     margin-right: auto;
     left: 0;
     right: 0;
+    letter-spacing: 8px;
 }
 
 
@@ -170,6 +171,7 @@ p {
 
 /*SIDE NAV BAR*/
 .side-nav {
+    z-index: 25;
     position: fixed;
     padding: 1rem auto;
     top: 35%;
@@ -209,20 +211,34 @@ i.fa-envelope {
 /*////////////// OFFERINGS SECTION //////////////*/
 
 .offerings-section-bg {
-    height: 70vh;
     background: url(images/MeditationStatues.jpg) no-repeat center fixed;
     background-size: cover;
     width: 100vw;
 }
 
+.offerings-section-bg .container {
+    padding: 0 4%;
+
+}
 .section-header {
     font-size: 3rem;
     text-transform: uppercase;
-    margin: 120px auto 100px;
+    font-weight: bold;
+    margin: 120px auto 0;
     transition: 600ms all;
- 
+    letter-spacing: 8px;
 }
 
+.section-tagline {
+ font-size: 1.6rem;
+ font-weight: bold;
+ text-transform: uppercase;
+ margin: 15px auto 100px;
+ transition: 600ms all;
+ transition-delay: 50ms;
+ letter-spacing: 4px;
+
+}
 
 .blue-text {
     color: #011627;
@@ -232,16 +248,74 @@ i.fa-envelope {
     color: #F7F7FF;
 }
 
+.card {
+    background-color: rgba(247, 247, 255, .9);
+    border: none;
+    margin-bottom: 15%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.card-last {
+    margin-bottom: 180px;
+}
+
+.card-header {
+    background: rgba(1, 22, 39, .75);
+}
+
+.card-title {
+    font-size: 1.6rem;
+    margin: 0;
+    color: #F7F7FF;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+
+}
+
+.card-body h6,
+.card-footer .btn {
+    font-weight: bold;
+    font-size: 1.6rem;
+}
+
+.card-body{
+    font-size: 1.4rem;
+}
+
+.book-btn {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 1.4rem;
+    background-color: #F7F7FF;
+    color: #373F51;
+    border: none;
+    font-weight: bold;
+}
+.book-btn:active,
+.book-btn:focus,
+.book-btn:hover{
+    text-transform: uppercase;
+    background-color: #73AB84;
+  
+}
 
 
 /**************** OFFERINGS SECTION END***************/
 
 
+
+
+
+
 /**************** ABOUT SECTION ***************/
 .about-section-bg {
     height: 70vh;
-
+    background: url(images/Brooklyn.jpg) center fixed;
+    background-size: cover;
 }
+
+
 
 
 /**************** ABOUT SECTION END***************/

@@ -7,12 +7,13 @@ $(window).scroll(function () {
 });
 
 $(window).scroll(function () {
-    if ($(this).scrollTop() >860) {
-        $('.offerings-section-bg .section-header').addClass('white-text');
-        $('.offerings-section-bg .section-header').removeClass('blue-text');
+    if ($(this).scrollTop() >865) {
+        $('.offerings-section-bg .section-header, .offerings-section-bg .section-tagline').addClass('white-text');
+        $('.offerings-section-bg .section-header, .offerings-section-bg .section-tagline').removeClass('blue-text');
        } else {
-        $('.offerings-section-bg .section-header').removeClass('white-text');
-        $('.offerings-section-bg .section-header').addClass('blue-text');
+        $('.offerings-section-bg .section-header, .offerings-section-bg .section-tagline').removeClass('white-text');
+        $('.offerings-section-bg .section-header, .offerings-section-bg .section-tagline').addClass('blue-text');
       }
+      
 });
 
