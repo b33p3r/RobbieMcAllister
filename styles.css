@@ -24,6 +24,24 @@ p {
 }
 
 
+.my-btn {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 1.4rem;
+    background-color: #F7F7FF;
+    color: #373F51;
+    border: none;
+    font-weight: bold;
+}
+
+.my-btn:active,
+.my-btn:focus,
+.my-btn:hover {
+    text-transform: uppercase;
+    background-color: #73AB84;
+
+}
+
 /************ UNIVERSAL & CONTAINERS END ************/
 
 /*////////////// HEADER START //////////////*/
@@ -33,9 +51,9 @@ p {
     background: transparent;
     text-align: center;
     color: #011627;
-    margin: 0 auto 120px;
-    padding-top: 0;
-    padding-bottom: 0;
+    margin: 0 auto;
+    padding: 0;
+    height: 100vh;
 }
 
 .jumbotron h1 {
@@ -48,7 +66,6 @@ p {
     font-size: 1rem;
     color: #00487C;
     margin: 0;
-
 }
 
 @media(min-width: 768px) {
@@ -63,6 +80,7 @@ p {
     padding: 0 20%;
     margin-bottom: 5%;
 }
+
 
 
 /* HeaderImg&Bio*/
@@ -110,27 +128,29 @@ p {
     width: 200px;
 }
 
-.btn-bot {
+.btn-bot-wrapper {
     position: absolute;
     text-align: center;
     bottom: -1.5%;
     font-size: 2.2rem;
-    width: 303px;
-    height: 70px;
+    height: 100px;
     padding: .8rem;
     color: #F7F7FF;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    background-color: rgba(1, 22, 39, .75);
+    background-color: #1a2424;
     text-transform: uppercase;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
     left: 0;
     right: 0;
-    letter-spacing: 8px;
+    letter-spacing: 10px;
+
+}
+
+.btn-bot {
+    margin-top: 15px;
 }
 
 
+/* news letter  */
 
 
 
@@ -218,8 +238,8 @@ i.fa-envelope {
 
 .offerings-section-bg .container {
     padding: 0 4%;
-
 }
+
 .section-header {
     font-size: 3rem;
     text-transform: uppercase;
@@ -230,13 +250,13 @@ i.fa-envelope {
 }
 
 .section-tagline {
- font-size: 1.6rem;
- font-weight: bold;
- text-transform: uppercase;
- margin: 15px auto 100px;
- transition: 600ms all;
- transition-delay: 50ms;
- letter-spacing: 4px;
+    font-size: 1.6rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 15px auto 100px;
+    transition: 600ms all;
+    transition-delay: 50ms;
+    letter-spacing: 4px;
 
 }
 
@@ -279,25 +299,8 @@ i.fa-envelope {
     font-size: 1.6rem;
 }
 
-.card-body{
+.card-body {
     font-size: 1.4rem;
-}
-
-.book-btn {
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    font-size: 1.4rem;
-    background-color: #F7F7FF;
-    color: #373F51;
-    border: none;
-    font-weight: bold;
-}
-.book-btn:active,
-.book-btn:focus,
-.book-btn:hover{
-    text-transform: uppercase;
-    background-color: #73AB84;
-  
 }
 
 
@@ -310,11 +313,35 @@ i.fa-envelope {
 
 /**************** ABOUT SECTION ***************/
 .about-section-bg {
-    height: 70vh;
     background: url(images/Brooklyn.jpg) center fixed;
     background-size: cover;
 }
 
+.about-section-bg .section-header,
+.about-section-bg .section-tagline {
+    color: #F7F7FF;
+}
+
+.about-quote {
+    background-color: #f7f7f7;
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding: 1rem;
+}
+
+.about-quote footer {
+    font-weight: normal;
+
+}
+
+
+
+.about-body-text {
+    color: #F7F7FF;
+    text-align: left;
+    font-size: 1.5rem;
+
+}
 
 
 
